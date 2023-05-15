@@ -18,10 +18,15 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+model-viewer {
+  width: 100%;
+  height: 90%;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: red;
 }
